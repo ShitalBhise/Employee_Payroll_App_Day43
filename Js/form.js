@@ -7,5 +7,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
     const output = document.querySelector('.salary-output');
     salary.addEventListener('input', function () {
         output.textContent = salary.value;
+        
     });
 })
