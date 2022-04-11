@@ -1,6 +1,8 @@
 window.addEventListener('DOMContentLoaded', (event) => {
 
-    /** UC8 set event listener on salary range*/
+    /*
+     UC8 set event listener on salary range
+     */
     const salary = document.querySelector("#salary");
     const output = document.querySelector('.salary-output');
     salary.addEventListener('input', function () {
